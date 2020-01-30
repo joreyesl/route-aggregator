@@ -1,7 +1,7 @@
 /**
  * Fetch the modal html used for displaying results
  */
-fetch(browser.extension.getURL("resources/modal.html"))
+/* fetch(browser.extension.getURL("resources/modal.html"))
     .then((response) => {
         if(!response.ok) {
             throw new Error('Failed to retrieve extension resource');
@@ -19,7 +19,7 @@ fetch(browser.extension.getURL("resources/modal.html"))
     })
     .catch((error) => {
         console.error('There was a problem with the extension: ', error);
-    });
+    }); */
 
 
 

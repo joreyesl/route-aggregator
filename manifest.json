@@ -2,10 +2,11 @@
 
   "manifest_version": 2,
   "name": "Route Aggregator",
-  "version": "0.1",
+  "version": "0.1.0",
 
   "description": "Adds a browser action to the toolbar that runs a script to aggregate the routes in AMZL routing tools.",
   "homepage_url": "https://github.com/joreyesl/route-aggregator",
+  
   "icons": {
     "48": "icons/van.svg"
   },
@@ -15,11 +16,12 @@
   ],
 
   "background": {
-    "scripts": ["background.js"]
+    "scripts": [ "background.js" ]
   },
 
   "browser_action": {
-    "default_icon": "icons/van.svg"
+    "default_icon": "icons/van.svg",
+    "default_title": "Route Aggregator"
   },
 
   "web_accessible_resources": [
